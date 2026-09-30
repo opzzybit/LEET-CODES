@@ -1,4 +1,4 @@
-public class TriangularAsterisks{
+public class SpacedTriangle{
 
    public static void main (String [] opzzy){
    
@@ -27,16 +27,5 @@ for (int count = 8; count > 0; count --){
 } 
  
  } 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  }
-   }
-  
+ }
+ }

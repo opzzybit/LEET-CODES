@@ -10,7 +10,7 @@ for (int opzzybit = 1; opzzybit <= 30; opzzybit ++){
    sum += opzzybit;
 }
  }
-System.out.printf("%-12s %-8d %-12s%n" + sum);
+System.out.printf( + sum);
 }
 }
 
