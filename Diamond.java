@@ -1,14 +1,29 @@
 public class Diamond {
 
    public static void main (String [] opzzy){
-   
-for (int count = 0 ; count < 8-1; count ++){
-   
-      for (int counter = 1; counter <= count ; counter ++ ){
-  
-  System.out.print("* ");
-}
-  System.out.println(" ");
-}
- }
- }
+    
+    int count = 5;
+for (int counter1 = 1 ; counter1 <= count; counter1 ++){
+   for (int counter2 = counter1; counter2 <= count ; counter2 ++ ){
+          System.out.print(" ");
+   }
+   for (int counter2 = 1; counter2 <= counter1; counter2 ++ ){
+          System.out.print("* ");
+   }
+
+   System.out.println(); 
+   }
+
+     int upper = 5;
+for (int upper1 = 1 ; upper1 <= upper; upper1 ++){
+   for (int upper2 = 1; upper2 <= upper1 ; upper2 ++ ){
+          System.out.print(" ");
+   }
+   for (int upper2 = upper1 ; upper2 <= upper; upper2 ++ ){
+          System.out.print("* ");
+   }
+   System.out.println(); 
+   }
+
+   }
+   }
